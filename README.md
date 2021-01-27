@@ -10,4 +10,4 @@
 ### Tecnologia/linguagem usada:
  - Python
 ### O programa foi feito com base nesta equação:
- [- Regra para validar CPF](https://campuscode.com.br/conteudos/o-calculo-do-digito-verificador-do-cpf-e-do-cnpj)
+ - [Regra para validar CPF](https://campuscode.com.br/conteudos/o-calculo-do-digito-verificador-do-cpf-e-do-cnpj)
