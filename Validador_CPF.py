@@ -5,6 +5,7 @@ while len(cpf_digitado) != 11:
     cpf_digitado = str(input('Digite o CPF: '))
 
 
+# Essa função converte a string em uma lista de números inteiros
 def cpf_usuario(cpf):
     cpf_convertido = []
     for contagem in range(0, 11):
@@ -12,6 +13,7 @@ def cpf_usuario(cpf):
     return cpf_convertido
 
 
+# Essa função faz o cálculo dos ultimos 2 dígitos do CPF
 def calculo_digito(decremento_valor, maximo_range, cpf):
     cpf_organizado = []
     decremento = decremento_valor
@@ -23,7 +25,7 @@ def calculo_digito(decremento_valor, maximo_range, cpf):
     if digito >= 10 or digito < 0:
         return 0
     return digito
-
+# Será tratado para caso venha ocorrer algum erro
 try:
     cpf = cpf_usuario(cpf_digitado)
 
@@ -35,5 +37,7 @@ try:
         print(f'CPF de número {cpf_digitado} é Valido!!!')
     else:
         print(f'CPF digitado não é valido!')
+
+# Caso ocorra do usuário digitar letras/símbolos
 except:
     print('Digite apenas números!')
