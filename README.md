@@ -1,5 +1,8 @@
 # ValidadorCPF
 
+### Screenshot
+![Screenshot](https://github.com/lucasbene86/ValidadorCPF/blob/main/Screenshot.png)
+
 ### Repositório referente a linguagem Python
  - Sistema para validação de CPF
 ### Informações sobre o código:
