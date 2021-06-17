@@ -1,13 +1,10 @@
-# ValidadorCPF
+# Validador de CPF
+> **Status:** Finalizado 🟢
 
-### Screenshot
+## Sobre o projeto
 ![Screenshot](https://github.com/lucasbene86/ValidadorCPF/blob/main/Screenshot.png)
 
-### Repositório referente a linguagem Python
  - Sistema para validação de CPF
-### Informações sobre o código:
- - Desenvolvido no Visual Studio Code
-
  - O número do CPF é solicitado ao usuário
  - O código difere CPFs validos, mas não funcionais Ex:(111.111.11...)
 ### Tecnologia/linguagem usada:
